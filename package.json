@@ -1,0 +1,19 @@
+{
+  "name": "dro-set-req-header",
+  "version": "1.0.0",
+  "description": "dro-set-req-header",
+  "main": "dro-set-req-header.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randiantech/dro-set-req-header.git"
+  },
+  "author": "Juan Carlos Cancela <cancela.juancarlos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randiantech/dro-set-req-header/issues"
+  },
+  "homepage": "https://github.com/randiantech/dro-set-req-header#readme"
+}
