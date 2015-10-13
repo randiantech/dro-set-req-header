@@ -1,4 +1,4 @@
-var cfg = require("../plugin.js").cfg;
+var cfg = require("../../lib/plugin.js").cfg;
 
 /**
  * set_request_header plugin for Dromedary library.
@@ -8,7 +8,7 @@ var cfg = require("../plugin.js").cfg;
  * @param cb the callback function
  */
 function plugin(req, res, cb) {
-    console.log("->dro-set-req-header");
+    console.log("->dro-set-req-header   ");
     var _ = cfg(req);
     Object.keys(_['header']).forEach(function (headerName) {
         req.headers[headerName] = _['header'][headerName];

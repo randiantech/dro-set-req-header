@@ -1,6 +1,6 @@
 {
   "name": "dro-set-req-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dro-set-req-header",
   "main": "dro-set-req-header.js",
   "scripts": {
